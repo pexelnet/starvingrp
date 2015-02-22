@@ -18,6 +18,6 @@ echo Done!
 
 ---------
 
-Application for updating resource pack: <>
+Application for updating resource pack: *not yet*
 
-Download last zipped build: <>
+Download last zipped build: *not yet*
