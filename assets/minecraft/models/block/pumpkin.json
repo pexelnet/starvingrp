@@ -1,0 +1,65 @@
+{
+    "__comment": "This model was created with freundTech's Blender2Minecraft converter (BETA)",
+    "ambientocclusion": true,
+    "elements": [
+        {   "__comment": "Cube",
+            "from": [ 5.98, 16.36, 8.02 ],
+            "to": [ 7.98, 17.86, 10.02 ],
+            "faces": {
+                "west": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "north": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "east": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "south": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "down": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 270 },
+                "up": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 90 }
+            }
+        },
+        {   "__comment": "Cube",
+            "from": [ 6.95, 15.23, 7.02 ],
+            "to": [ 8.95, 16.73, 9.02 ],
+            "faces": {
+                "west": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "north": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "east": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "south": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 0 },
+                "down": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 270 },
+                "up": { "uv": [ 7.0, 7.0, 9.0, 9.0 ], "texture": "#pumpkin_top", "rotation": 90 }
+            }
+        },
+        {   "__comment": "Cube",
+            "from": [ 0.0, 0.0, 4.74 ],
+            "to": [ 18.59, 16.3, 16.0 ],
+            "faces": {
+              "west": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_side", "rotation": 180 },
+                "north": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_face_off", "rotation": 0 },
+                "east": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_side", "rotation": 180 },
+                "south": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_side", "rotation": 180 },
+                "down": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_top", "rotation": 90 },
+                "up": { "uv": [ 0.0, 0.0, 16.0, 16.0 ], "texture": "#pumpkin_top", "rotation": 270 }
+            }
+        }
+    ],
+    "textures": {
+        "pumpkin_top": "blocks/pumpkin_top",
+        "pumpkin_side": "blocks/pumpkin_side",
+        "pumpkin_face_off": "blocks/pumpkin_face_off",
+        "particle": "blocks/pumpkin_side"
+    },
+    "display": {
+        "firstperson": {
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+        "thirdperson": {
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+        "gui": {
+            "rotation": [ 0.0, 0.0, 0.0 ],
+            "translation": [ 0.0, 0.0, 0.0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        }
+    }
+}
