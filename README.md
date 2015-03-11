@@ -20,4 +20,4 @@ echo Done!
 
 Application for updating resource pack: *not yet*
 
-Download last zipped build: *not yet*
+Download last zipped build: *not yet* 
