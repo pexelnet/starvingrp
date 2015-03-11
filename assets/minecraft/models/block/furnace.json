@@ -2,10 +2,11 @@
     "__createdwith": "opl's Model Creator",
     "ambientocclusion": false,
     "textures": {
-        "furnace_front_off": "blocks/furnace_front_off",
-        "furnace_top": "blocks/furnace_top",
-        "furnace_side": "blocks/furnace_side",
-        "furnace_side2": "blocks/furnace_side2"
+        "furnace_side": "blocks/furnace/side",
+        "furnace_side2": "blocks/furnace/side2",
+        "furnace_front_off": "blocks/furnace/front",
+        "furnace_top": "blocks/furnace/top",
+        "particle": "blocks/furnace/front"
     },
     "elements": [
         {
@@ -28,9 +29,6 @@
                 "north": {
                     "uv": [0,0.75,0.5,16],
                     "texture": "#furnace_front_off"
-                },
-                "south": {
-                    "texture": "#furnace_side"
                 }
             }
         },
@@ -533,60 +531,6 @@
             }
         },
         {
-            "from": [7.5,8,1.5],
-            "to": [8,8.5,8],
-            "faces": {
-                "up": {
-                    "texture": "#furnace_top"
-                },
-                "west": {
-                    "texture": "#furnace_top"
-                },
-                "east": {
-                    "texture": "#furnace_top"
-                },
-                "north": {
-                    "texture": "#furnace_top"
-                }
-            }
-        },
-        {
-            "from": [7.5,8,8.5],
-            "to": [8,8.5,14.5],
-            "faces": {
-                "up": {
-                    "texture": "#furnace_top"
-                },
-                "west": {
-                    "texture": "#furnace_top"
-                },
-                "east": {
-                    "texture": "#furnace_top"
-                },
-                "south": {
-                    "texture": "#furnace_top"
-                }
-            }
-        },
-        {
-            "from": [8,8,3.5],
-            "to": [9,8.5,4],
-            "faces": {
-                "up": {
-                    "texture": "#furnace_top"
-                },
-                "east": {
-                    "texture": "#furnace_top"
-                },
-                "north": {
-                    "texture": "#furnace_top"
-                },
-                "south": {
-                    "texture": "#furnace_top"
-                }
-            }
-        },
-        {
             "from": [10,15,10.5],
             "to": [13.5,15.5,13],
             "faces": {
@@ -833,7 +777,6 @@
                     "texture": "#furnace_side2"
                 },
                 "north": {
-                    "uv": [0,1,16,16],
                     "texture": "#furnace_front_off"
                 },
                 "south": {
@@ -861,9 +804,6 @@
                 "north": {
                     "uv": [0,0.75,0.5,16],
                     "texture": "#furnace_front_off"
-                },
-                "south": {
-                    "texture": "#furnace_side"
                 }
             }
         },
@@ -887,9 +827,6 @@
                 "north": {
                     "uv": [0.75,3.75,15,6],
                     "texture": "#furnace_front_off"
-                },
-                "south": {
-                    "texture": "#furnace_side"
                 }
             }
         },
@@ -913,9 +850,6 @@
                 "north": {
                     "uv": [0,0.75,0.5,16],
                     "texture": "#furnace_front_off"
-                },
-                "south": {
-                    "texture": "#furnace_side"
                 }
             }
         },
@@ -941,9 +875,6 @@
                 "north": {
                     "uv": [4,7,11.5,8],
                     "texture": "#furnace_front_off"
-                },
-                "south": {
-                    "texture": "#furnace_side"
                 }
             }
         },
