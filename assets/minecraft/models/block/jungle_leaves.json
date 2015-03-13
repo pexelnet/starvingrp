@@ -1,0 +1,7 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "middle": "blocks/leaves/leaves_jungle",
+        "twig": "blocks/leaves/leaves_jungle_o"
+    }
+}
