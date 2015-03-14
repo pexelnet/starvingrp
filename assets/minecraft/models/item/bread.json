@@ -1,8 +1,8 @@
 {
 "__comment": "Designed by PlayLikeLars",
 "textures": {
-    "particle": "items/scope/2x",
-    "texture": "items/scope/2x"
+    "particle": "items/scope/8x",
+    "texture": "items/scope/8x"
 },
 "elements": [ 
 {
