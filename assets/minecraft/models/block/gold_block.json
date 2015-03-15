@@ -1,0 +1,173 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"textures": {
+    "parachute1": "blocks/parachute/parachute1",
+    "parachute2": "blocks/parachute/parachute2",
+    "parachure3": "blocks/parachute/parachure3"
+},
+"elements": [ 
+{
+    "from": [ 0, 15, 0 ],
+    "to": [ 16, 17, 16 ],
+    "faces": {
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#parachute1" },
+        "north": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" },
+        "south": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" }
+    }
+},
+{
+    "from": [ -14.5, 9, 0.5 ],
+    "to": [ 1.5, 11, 15.5 ],
+    "rotation": { "origin": [ -14.5, 11, 0.5 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "up":    { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#parachute1" },
+        "north": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" },
+        "south": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" },
+        "west":  { "uv": [ 0.5, 9, 15.5, 11 ], "texture": "#parachute2" }
+    }
+},
+{
+    "from": [ 16, 15, 0.5 ],
+    "to": [ 32, 17, 15.5 ],
+    "rotation": { "origin": [ 16, 17, 0.5 ], "axis": "z", "angle": -22.5 },
+    "faces": {
+        "up":    { "uv": [ 0, 0.5, 16, 15.5 ], "texture": "#parachute1" },
+        "north": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" },
+        "south": { "uv": [ 0, 9, 16, 11 ], "texture": "#parachute2" },
+        "east":  { "uv": [ 0.5, 9, 15.5, 11 ], "texture": "#parachute2" }
+    }
+},
+{
+    "from": [ 6, -14.5, 5 ],
+    "to": [ 10, -6, 6 ],
+    "faces": {
+        "down":  { "uv": [ 10, 6, 6, 5 ], "texture": "#parachute1" },
+        "up":    { "uv": [ 6, 5, 10, 6 ], "texture": "#parachute1" },
+        "north": { "uv": [ 6, 16, 10, 16 ], "texture": "#parachute1" },
+        "south": { "uv": [ 6, 16, 10, 16 ], "texture": "#parachute1" },
+        "west":  { "uv": [ 5, 16, 6, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 10, 16, 11, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ -14.5, -13.5, 1 ],
+    "to": [ -14.4375, 11, 1.5 ],
+    "rotation": { "origin": [ -14.5, 11, 1 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 1, 5, 1.5, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 14.5, 5, 15, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ -14.5, -13.5, 14.5 ],
+    "to": [ -14.4375, 11, 15 ],
+    "rotation": { "origin": [ -14.5, 11, 14.5 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 14.5, 5, 15, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 1, 5, 1.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ -14.5, -13.5, 7.5 ],
+    "to": [ -14.4375, 11, 8 ],
+    "rotation": { "origin": [ -14.5, 11, 7.5 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 7.5, 5, 8, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 8, 5, 8.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 0, -4.5, 15 ],
+    "to": [ 0.0625, 17, 15.5 ],
+    "rotation": { "origin": [ 0, 17, 15 ], "axis": "x", "angle": 22.5 },
+    "faces": {
+        "west":  { "uv": [ 15, 0, 15.5, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 0.5, 0, 1, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 0, -4.5, 7.5 ],
+    "to": [ 0.0625, 17, 8 ],
+    "rotation": { "origin": [ 0, 17, 7.5 ], "axis": "z", "angle": 22.5 },
+    "faces": {
+        "west":  { "uv": [ 7.5, 0, 8, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 8, 0, 8.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 0, -4.5, 0.5 ],
+    "to": [ 0.0625, 17, 1 ],
+    "rotation": { "origin": [ 0, 17, 0.5 ], "axis": "x", "angle": -22.5 },
+    "faces": {
+        "west":  { "uv": [ 0.5, 0, 1, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 15, 0, 15.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 16, -4.5, 15 ],
+    "to": [ 16.0625, 17, 15.5 ],
+    "rotation": { "origin": [ 16, 17, 15 ], "axis": "x", "angle": 22.5 },
+    "faces": {
+        "west":  { "uv": [ 15, 0, 15.5, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 0.5, 0, 1, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 16, -4.5, 0.5 ],
+    "to": [ 16.0625, 17, 1 ],
+    "rotation": { "origin": [ 16, 17, 0.5 ], "axis": "x", "angle": -22.5 },
+    "faces": {
+        "west":  { "uv": [ 0.5, 0, 1, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 15, 0, 15.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 16, -4.5, 7.5 ],
+    "to": [ 16.0625, 17, 8 ],
+    "rotation": { "origin": [ 16, 17, 7.5 ], "axis": "z", "angle": -22.5 },
+    "faces": {
+        "west":  { "uv": [ 7.5, 0, 8, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 8, 0, 8.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 30.5, -13.5, 14.5 ],
+    "to": [ 30.5625, 11, 15 ],
+    "rotation": { "origin": [ 30.5, 11, 14.5 ], "axis": "z", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 14.5, 5, 15, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 1, 5, 1.5, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 30.5, -13.5, 1 ],
+    "to": [ 30.5625, 11, 1.5 ],
+    "rotation": { "origin": [ 30.5, 11, 1 ], "axis": "z", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 1, 5, 1.5, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 14.5, 5, 15, 16 ], "texture": "#parachute1" }
+    }
+},
+{
+    "from": [ 30.5, -13.5, 7.5 ],
+    "to": [ 30.5625, 11, 8 ],
+    "rotation": { "origin": [ 30.5, 11, 7.5 ], "axis": "z", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 7.5, 5, 8, 16 ], "texture": "#parachute1" },
+        "east":  { "uv": [ 8, 5, 8.5, 16 ], "texture": "#parachute1" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ -157, 0, 0 ],
+        "translation": [ 3.4, -16, -6.7 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 13.9, 3.4 ],
+        "scale": [ 2, 2, 2 ]
+    }
+}
+}
