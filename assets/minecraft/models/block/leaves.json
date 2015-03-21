@@ -1,6 +1,8 @@
 {
 "textures": {
-    "particle": "#middle"
+    "particle": "#middle",
+    "twig": "blocks/leaves/leaves_big_oak_o",
+    "lives_oak_o2": "blocks/leaves/lives_oak_o2"
 },
 "elements": [ 
 {
@@ -37,6 +39,24 @@
     "faces": {
         "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 },
         "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 19, -8, -3 ],
+    "to": [ 19.0625, 24, 29 ],
+    "rotation": { "origin": [ 19, -8, -3 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0 },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0 }
+    }
+},
+{
+    "from": [ -3.5, -8, -3 ],
+    "to": [ -3.4375, 24, 29 ],
+    "rotation": { "origin": [ -3.5, -8, -3 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0 },
+        "east":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0 }
     }
 }
 ]
