@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "blocks/asphalt/line5",
+	"up": "blocks/asphalt/line5"
+    }
+}
