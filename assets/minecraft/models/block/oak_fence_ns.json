@@ -1,7 +1,8 @@
 {
 "__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
 "textures": {
-    "particle": "#texture"
+    "particle": "blocks/fence/oak_fence",
+    "texture": "blocks/fence/oak_fence"
 },
 "elements": [ 
 {

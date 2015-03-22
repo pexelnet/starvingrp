@@ -2,7 +2,8 @@
     "__createdwith": "opl's Model Creator",
     "ambientocclusion": false,
     "textures": {
-        "ladder": "blocks/ladder"
+        "ladder": "blocks/ladder","particle": "blocks/ladder"
+
     },
     "elements": [
         {
