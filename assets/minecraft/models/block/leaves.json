@@ -1,4 +1,5 @@
 {
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
 "textures": {
     "particle": "#middle",
     "twig": "blocks/leaves/leaves_big_oak_o",
@@ -28,6 +29,7 @@
 {
     "from": [ 0.5, -8, -8 ],
     "to": [ 15.5, 24, 24 ],
+    "shade": false,
     "faces": {
         "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 },
         "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 }
@@ -36,6 +38,7 @@
 {
     "from": [ -8, 0.5, -8 ],
     "to": [ 24, 15.5, 24 ],
+    "shade": false,
     "faces": {
         "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 },
         "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#twig", "tintindex": 0 }
@@ -44,19 +47,21 @@
 {
     "from": [ 19, -8, -3 ],
     "to": [ 19.0625, 24, 29 ],
+    "shade": false,
     "rotation": { "origin": [ 19, -8, -3 ], "axis": "y", "angle": -45 },
     "faces": {
-        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0 },
-        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0 }
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" }
     }
 },
 {
     "from": [ -3.5, -8, -3 ],
     "to": [ -3.4375, 24, 29 ],
+    "shade": false,
     "rotation": { "origin": [ -3.5, -8, -3 ], "axis": "y", "angle": 45 },
     "faces": {
-        "west":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0 },
-        "east":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0 }
+        "west":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 1, 1, 15, 15 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" }
     }
 }
 ]
