@@ -6,9 +6,9 @@
 "elements": [ 
 {
     "__comment": "Center post*",
-    "from": [ 8.5, 8.5, 0 ],
-    "to": [ 21, 10.5, 1 ],
-    "rotation": { "origin": [ 8.5, 8.5, 0 ], "axis": "y", "angle": -45 },
+    "from": [ 7.5, 8.5, -1 ],
+    "to": [ 21, 10.5, 0 ],
+    "rotation": { "origin": [ 7.5, 8.5, -1 ], "axis": "y", "angle": -45 },
     "faces": {
         "down":  { "uv": [ 7.5, 1, 0, 0 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 8.5, 0, 16, 1 ], "texture": "#texture" },
@@ -20,9 +20,9 @@
 },
 {
     "__comment": "Center post*",
-    "from": [ 8.5, 15, 0 ],
-    "to": [ 21, 17, 1 ],
-    "rotation": { "origin": [ 8.5, 15, 0 ], "axis": "y", "angle": -45 },
+    "from": [ 7.5, 15, -1 ],
+    "to": [ 21.5, 17, 0 ],
+    "rotation": { "origin": [ 7.5, 15, -1 ], "axis": "y", "angle": -45 },
     "faces": {
         "down":  { "uv": [ 7.5, 1, 0, 0 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 8.5, 0, 16, 1 ], "texture": "#texture" },
@@ -34,9 +34,9 @@
 },
 {
     "__comment": "Center post*",
-    "from": [ 8.5, 3, 0 ],
-    "to": [ 21, 5, 1 ],
-    "rotation": { "origin": [ 8.5, 3, 0 ], "axis": "y", "angle": -45 },
+    "from": [ 7.5, 3, -1 ],
+    "to": [ 21, 5, 0 ],
+    "rotation": { "origin": [ 7.5, 3, -1 ], "axis": "y", "angle": -45 },
     "faces": {
         "down":  { "uv": [ 7.5, 1, 0, 0 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 8.5, 0, 16, 1 ], "texture": "#texture" },
