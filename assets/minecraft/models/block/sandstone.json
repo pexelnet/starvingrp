@@ -1,0 +1,17 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
+"elements": [ 
+{
+    "from": [ -16, -8, 0 ],
+    "to": [ 32, 24, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#texture" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+    }
+}
+]
+}
