@@ -1,0 +1,8 @@
+{
+    "parent": "block/roof_outer_stairs",
+    "textures": {
+        "bottom": "blocks/roof/roof_up",
+        "top": "blocks/roof/roof_up",
+        "side": "blocks/roof/roof_up"
+    }
+}
