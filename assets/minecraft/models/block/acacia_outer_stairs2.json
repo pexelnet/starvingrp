@@ -4,6 +4,6 @@
 	"particle": "blocks/roof/roof_up",
         "bottom": "blocks/roof/bottom",
         "up": "blocks/roof/roof_up_corner",
-        "side": "blocks/roof/roof_side_top"
+        "side": "blocks/roof/roof_side_bottom"
     }
 }

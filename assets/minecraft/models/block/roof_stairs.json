@@ -1,8 +1,9 @@
 {
 "textures": {
-    "particle": "blocks/roof/roof_up",
-    "bottom": "blocks/roof/roof_up",
-    "roof_side": "blocks/roof/roof_side"
+    "particle": "#top",
+    "up": "#top",
+    "roof_side": "#side",
+    "bottom": "#bottom"
 },
 "elements": [ 
 {
@@ -12,8 +13,7 @@
     "shade": false,
     "rotation": { "origin": [ 0, 0, 0 ], "axis": "z", "angle": 45 },
     "faces": {
-        "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#bottom" },
-        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#bottom" }
+        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#up" }
     }
 },
 {
