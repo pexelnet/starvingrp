@@ -1,0 +1,9 @@
+{
+    "parent": "block/roof_inner_stairs",
+    "textures": {
+        "bottom": "blocks/roof/dark_bottom",
+        "up": "blocks/roof/dark_roof_up",
+        "particle": "blocks/roof/dark_roof_up",
+        "side": "blocks/roof/dark_roof_side_bottom"
+    }
+}
