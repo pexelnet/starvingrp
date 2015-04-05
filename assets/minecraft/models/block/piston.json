@@ -4,7 +4,8 @@
     "texture": "blocks/furniture/wood1",
     "cobblestone": "blocks/cobblestone",
     "wood2": "blocks/furniture/wood2",
-    "metal": "blocks/furniture/metal"
+    "metal": "blocks/furniture/metal",
+    "wood3": "blocks/furniture/wood3"
 },
 "elements": [ 
 {
@@ -167,12 +168,12 @@
     "from": [ 2.5, 10.25, -1 ],
     "to": [ 13.5, 12.75, -0.75 ],
     "faces": {
-        "down":  { "uv": [ 13.5, 0, 2.5, 0 ], "texture": "#texture" },
-        "up":    { "uv": [ 2.5, 0, 13.5, 0 ], "texture": "#texture" },
-        "north": { "uv": [ 2.5, 3.25, 13.5, 5.75 ], "texture": "#texture" },
-        "south": { "uv": [ 2.5, 3.25, 13.5, 5.75 ], "texture": "#texture" },
-        "west":  { "uv": [ 0, 3.25, 0, 5.75 ], "texture": "#texture" },
-        "east":  { "uv": [ 16, 3.25, 16, 5.75 ], "texture": "#texture" }
+        "down":  { "uv": [ 2.5, -1, 13.5, -0.75 ], "texture": "#wood3" },
+        "up":    { "uv": [ 2.5, 0, 13.5, 0.25 ], "texture": "#wood3" },
+        "north": { "uv": [ 2.5, 3.75, 13.5, 6.25 ], "texture": "#wood3" },
+        "south": { "uv": [ 2.5, 3.75, 13.5, 6.25 ], "texture": "#wood3" },
+        "west":  { "uv": [ 0, 3.25, 0.25, 5.75 ], "texture": "#wood3" },
+        "east":  { "uv": [ 0, 3.25, 0.25, 5.75 ], "texture": "#wood3" }
     }
 },
 {
