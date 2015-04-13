@@ -1,7 +1,8 @@
 {
 "textures": {
     "particle": "blocks/fence/spruce_fence",
-    "texture": "blocks/fence/spruce_fence"
+    "texture": "blocks/fence/spruce_fence",
+    "spruce_fence2": "blocks/fence/spruce_fence2"
 },
 "elements": [ 
 {
@@ -9,12 +10,12 @@
     "from": [ 6, 0, 0 ],
     "to": [ 10, 22, 4 ],
     "faces": {
-        "down":  { "uv": [ 10, 4, 6, 0 ], "texture": "#texture", "cullface": "down" },
-        "up":    { "uv": [ 6, 0, 10, 4 ], "texture": "#texture" },
-        "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
-        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
-        "west":  { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" }
+        "down":  { "uv": [ 6, 0, 10, 4 ], "texture": "#texture", "cullface": "down" },
+        "up":    { "uv": [ 13.25, 11.75, 16, 14.25 ], "texture": "#spruce_fence2" },
+        "north": { "uv": [ 6.75, 0, 9.5, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 9.25, 0, 12, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 2, 0, 4.5, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 11.75, 0, 14.5, 16 ], "texture": "#texture" }
     }
 },
 {
@@ -23,12 +24,12 @@
     "to": [ 8.5, 16, 4.5 ],
     "rotation": { "origin": [ 7.5, 16, 2.5 ], "axis": "x", "angle": -45 },
     "faces": {
-        "down":  { "uv": [ 8.5, 4.5, 7.5, 2.5 ], "texture": "#texture", "cullface": "down" },
+        "down":  { "uv": [ 12, 16, 9.5, 15.25 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 7.5, 2.5, 8.5, 4.5 ], "texture": "#texture" },
-        "north": { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#texture" },
-        "south": { "uv": [ 7.5, 0, 8.5, 16 ], "texture": "#texture" },
-        "west":  { "uv": [ 2.5, 0, 4.5, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 11.5, 0, 13.5, 16 ], "texture": "#texture" }
+        "north": { "uv": [ 7.5, 0.5, 8.5, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 7.5, 0.5, 8.5, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 2.25, 0.5, 4.25, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 12, 0.5, 14, 16 ], "texture": "#texture" }
     }
 },
 {
@@ -37,7 +38,7 @@
     "to": [ 8.5, 8.5, 4 ],
     "rotation": { "origin": [ 7.5, 8.5, 2.5 ], "axis": "x", "angle": -45 },
     "faces": {
-        "down":  { "uv": [ 8.5, 4, 7.5, 2.5 ], "texture": "#texture", "cullface": "down" },
+        "down":  { "uv": [ 9.75, 16, 8.25, 15.25 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 7.5, 2.5, 8.5, 4 ], "texture": "#texture" },
         "north": { "uv": [ 7.5, 7.5, 8.5, 16 ], "texture": "#texture" },
         "south": { "uv": [ 7.5, 7.5, 8.5, 16 ], "texture": "#texture" },

@@ -1,7 +1,8 @@
 {
 "textures": {
     "particle": "blocks/fence/spruce_fence",
-    "texture": "blocks/fence/spruce_fence"
+    "texture": "blocks/fence/spruce_fence",
+    "spruce_fence2": "blocks/fence/spruce_fence2"
 },
 "elements": [ 
 {
@@ -9,19 +10,19 @@
     "from": [ 6, 0, 6 ],
     "to": [ 10, 22, 10 ],
     "faces": {
-        "down":  { "uv": [ 10, 4, 6, 0 ], "texture": "#texture", "cullface": "down" },
-        "up":    { "uv": [ 6, 0, 10, 4 ], "texture": "#texture" },
-        "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
-        "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
-        "west":  { "uv": [ 0, 0, 4, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 12, 0, 16, 16 ], "texture": "#texture" }
+        "down":  { "uv": [ 12.25, 16, 10, 15.5 ], "texture": "#texture", "cullface": "down" },
+        "up":    { "uv": [ 13.25, 11.75, 16, 14.5 ], "texture": "#spruce_fence2" },
+        "north": { "uv": [ 6.75, 0, 9.5, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 9.25, 0, 12, 16 ], "texture": "#texture" },
+        "west":  { "uv": [ 2, 0, 4.5, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 9.25, 0, 12, 16 ], "texture": "#texture" }
     }
 },
 {
     "__comment": "Center post*",
-    "from": [ 7.5, -6.5, 9 ],
-    "to": [ 8.5, 7, 10.5 ],
-    "rotation": { "origin": [ 7.5, 7, 9 ], "axis": "x", "angle": -45 },
+    "from": [ 7.5, -5.5, 7.25 ],
+    "to": [ 8.5, 8, 8.75 ],
+    "rotation": { "origin": [ 7.5, 8, 7.25 ], "axis": "x", "angle": -45 },
     "faces": {
         "down":  { "uv": [ 8.5, 4, 7.5, 2.5 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 7.5, 2.5, 8.5, 4 ], "texture": "#texture" },
@@ -61,9 +62,9 @@
 },
 {
     "__comment": "Center post*",
-    "from": [ 9, -6, 7.5 ],
-    "to": [ 10.5, 7, 8.5 ],
-    "rotation": { "origin": [ 9, 7, 7.5 ], "axis": "z", "angle": 45 },
+    "from": [ 6, -4.5, 7.5 ],
+    "to": [ 7.5, 8.5, 8.5 ],
+    "rotation": { "origin": [ 6, 8.5, 7.5 ], "axis": "z", "angle": 45 },
     "faces": {
         "down":  { "uv": [ 8.5, 4, 7.5, 2.5 ], "texture": "#texture", "cullface": "down" },
         "up":    { "uv": [ 7.5, 2.5, 8.5, 4 ], "texture": "#texture" },
