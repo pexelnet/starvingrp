@@ -762,7 +762,7 @@
         "scale": [ 2, 2, 2 ]
     },
     "firstperson": {
-        "rotation": [ 14, 180, 17 ],
+        "rotation": [ 4, 10, -4 ],
         "translation": [ 0, 2.2, 0 ],
         "scale": [ 1, 1, 1 ]
     }
