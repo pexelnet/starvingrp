@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "spruce_leaves" },
+{ "model": "spruce_leaves1" },
+{ "model": "spruce_leaves2" },
+{ "model": "spruce_leaves3" },
+{ "model": "spruce_leaves4" },
+{ "model": "spruce_leaves5" }
+]
+    }
+}
