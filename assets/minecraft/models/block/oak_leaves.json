@@ -1,7 +1,126 @@
 {
-    "parent": "block/leaves",
-    "textures": {
-        "middle": "blocks/leaves/leaves_oak",
-        "twig": "blocks/leaves/leaves_oak_o"
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "#middle",
+    "middle": "blocks/leaves/leaves_spruce",
+    "twig": "blocks/leaves/leaves_spruce_o",
+    "leaves_spruce_o2": "blocks/leaves/leaves_spruce_o2",
+    "leaves_spruce2": "blocks/leaves/leaves_spruce2"
+},
+"elements": [ 
+{
+    "from": [ 8, 0, -4 ],
+    "to": [ 8.09375, 24, 20 ],
+    "shade": false,
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
     }
+},
+{
+    "from": [ 20, 0, -4 ],
+    "to": [ 20.0938, 24, 29.75 ],
+    "shade": false,
+    "rotation": { "origin": [ 20, 0, -4 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 0, 8 ],
+    "to": [ 20, 24, 8.09375 ],
+    "shade": false,
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 0, -4 ],
+    "to": [ 29.75, 24, -3.90625 ],
+    "shade": false,
+    "rotation": { "origin": [ -4, 0, -4 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 11.9063, -4 ],
+    "to": [ 20, 12, 20 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 23.9063, -4 ],
+    "to": [ 30.5, 24, 20 ],
+    "shade": false,
+    "rotation": { "origin": [ -4, 24, -4 ], "axis": "z", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, -0.09375, -4 ],
+    "to": [ 29.75, 0, 20 ],
+    "shade": false,
+    "rotation": { "origin": [ -4, 0, -4 ], "axis": "z", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ 8, 0, -4 ],
+    "to": [ 8.09375, 24, 20 ],
+    "shade": false,
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 11.9063, -4 ],
+    "to": [ 20, 12, 20 ],
+    "shade": false,
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 23.9063, -4 ],
+    "to": [ 20, 24, 30.5 ],
+    "shade": false,
+    "rotation": { "origin": [ -4, 24, -4 ], "axis": "x", "angle": 45 },
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, -0.09375, -4 ],
+    "to": [ 20, 0, 30.5 ],
+    "shade": false,
+    "rotation": { "origin": [ -4, 0, -4 ], "axis": "x", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 16, 16, 0, 0 ], "texture": "#leaves_spruce2" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+},
+{
+    "from": [ -4, 0, 8 ],
+    "to": [ 20, 24, 8.09375 ],
+    "shade": false,
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#leaves_spruce2" }
+    }
+}
+]
 }
