@@ -1,7 +1,7 @@
 {
 "__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
 "textures": {
-    "particle": "blocks/leaves/leaves_spruce",
+    "particle": "#middle",
     "middle": "blocks/leaves/leaves_spruce",
     "twig": "blocks/leaves/leaves_spruce_o"
 },
@@ -32,7 +32,7 @@
     "to": [ 15.5, 24, 24 ],
     "shade": false,
     "faces": {
-        "west":  { "uv": [ 0.0030000000260770321, 0.0030000000260770321, 15.996999740600586, 15.996999740600586 ], "texture": "#twig", "tintindex": 0 },
+        "west":  { "uv": [ 0.0030000000260770321, 0.0030000000260770321, 15.996999740600586, 15.996999740600586 ], "texture": "#up", "tintindex": 0 },
         "east":  { "uv": [ 0.0030000000260770321, 0.0030000000260770321, 15.996999740600586, 15.996999740600586 ], "texture": "#twig", "tintindex": 0 }
     }
 },

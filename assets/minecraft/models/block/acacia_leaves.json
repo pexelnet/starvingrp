@@ -1,44 +1,68 @@
 {
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.92 Beta - http://bdcraft.net",
 "textures": {
     "particle": "#middle",
-    "middle": "blocks/leaves/leaves_acacia",
-    "twig": "blocks/leaves/leaves_acacia_o"
+    "middle": "blocks/leaves/leaves_spruce",
+    "twig": "blocks/leaves/leaves_spruce_o",
+    "lives_oak_o2": "blocks/leaves/leaves_spruce_o2"
 },
 "elements": [ 
 {
     "from": [ 0, 0, 0 ],
     "to": [ 16, 16, 16 ],
     "faces": {
-        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" },
-        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" },
-        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" },
-        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" },
-        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" },
-        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#middle" }
+        "down":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 },
+        "up":    { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 },
+        "north": { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 },
+        "south": { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 },
+        "west":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 },
+        "east":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#middle", "tintindex": 0 }
     }
 },
 {
     "from": [ -8, -8, 0.5 ],
     "to": [ 24, 24, 15.5 ],
     "faces": {
-        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" },
-        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" }
+        "north": { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 },
+        "south": { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 }
     }
 },
 {
     "from": [ 0.5, -8, -8 ],
     "to": [ 15.5, 24, 24 ],
+    "shade": false,
     "faces": {
-        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" },
-        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" }
+        "west":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 },
+        "east":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 }
     }
 },
 {
     "from": [ -8, 0.5, -8 ],
     "to": [ 24, 15.5, 24 ],
+    "shade": false,
     "faces": {
-        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" },
-        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#twig" }
+        "down":  { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 },
+        "up":    { "uv": [ 0.002, 0.002, 15.998, 15.998 ], "texture": "#twig", "tintindex": 0 }
+    }
+},
+{
+    "from": [ 19, -8, -3 ],
+    "to": [ 19.0625, 24, 29 ],
+    "shade": false,
+    "rotation": { "origin": [ 19, -8, -3 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "west":  { "uv": [ 15.9365, 0.001, 0.001, 15.9365 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 0.001, 0.001, 15.9365, 15.9365 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" }
+    }
+},
+{
+    "from": [ -3.5, -8, -3 ],
+    "to": [ -3.4375, 24, 29 ],
+    "shade": false,
+    "rotation": { "origin": [ -3.5, -8, -3 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 15.9365, 0.001, 0.001, 15.9365 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" },
+        "east":  { "uv": [ 0.001, 0.001, 15.9365, 15.9365 ], "texture": "#lives_oak_o2", "tintindex": 0, "cullface": "up" }
     }
 }
 ]
