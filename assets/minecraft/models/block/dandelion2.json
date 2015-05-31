@@ -25,9 +25,9 @@
     }
 },
 {
-    "from": [ 8, -0.105625, 4.62 ],
-    "to": [ 14.76, 0, 11.38 ],
-    "rotation": { "origin": [ 8, 0, 4.62 ], "axis": "z", "angle": 22.5 },
+    "from": [ 8, 0.144375, 4.625 ],
+    "to": [ 14.76, 0.25, 11.385 ],
+    "rotation": { "origin": [ 8, 0.25, 4.625 ], "axis": "z", "angle": 22.5 },
     "faces": {
         "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#cross" },
         "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 90, "texture": "#cross" }
@@ -43,50 +43,17 @@
     }
 },
 {
-    "from": [ 8, 0.325, 7.675 ],
-    "to": [ 8.08125, 8.45, 15.8 ],
-    "rotation": { "origin": [ 8, 8.45, 7.675 ], "axis": "x", "angle": 22.5 },
-    "faces": {
-        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion2" },
-        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#dandelion2" }
-    }
-},
-{
-    "from": [ 8.975, 0, 5.725 ],
-    "to": [ 9.05625, 5.2, 10.925 ],
-    "rotation": { "origin": [ 8.975, 0, 5.725 ], "axis": "y", "angle": -22.5 },
-    "faces": {
-        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion2" },
-        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#dandelion2" }
-    }
-},
-{
-    "from": [ 4.75, 0.325, 7.675 ],
-    "to": [ 11.25, 8.775, 7.75625 ],
+    "from": [ 4.75, 0.05, 6.75 ],
+    "to": [ 11.25, 8.5, 6.83125 ],
+    "rotation": { "origin": [ 4.75, 0.05, 6.75 ], "axis": "y", "angle": -22.5 },
     "faces": {
         "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion2" },
         "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#dandelion2" }
     }
 },
 {
-    "from": [ 7.35, 7.39375, 7.025 ],
-    "to": [ 8.65, 7.475, 8.325 ],
-    "faces": {
-        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" },
-        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" }
-    }
-},
-{
-    "from": [ 7.025, 5.76875, 9.625 ],
-    "to": [ 9.3, 5.85, 11.575 ],
-    "faces": {
-        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" },
-        "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" }
-    }
-},
-{
-    "from": [ 7.35, 4.14375, 7.35 ],
-    "to": [ 8.65, 4.225, 8.65 ],
+    "from": [ 6.75, 7.16875, 7 ],
+    "to": [ 9, 7.25, 9.5 ],
     "faces": {
         "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" },
         "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#dandelion3" }

@@ -1,0 +1,27 @@
+{
+    "variants": {
+        "normal": 
+[
+{ "model": "dandelion" },
+{ "model": "dandelion", "y": 90 },
+{ "model": "dandelion", "y": 180 },
+{ "model": "dandelion", "y": 270 },
+
+{ "model": "dandelion1" },
+{ "model": "dandelion1", "y": 90 },
+{ "model": "dandelion1", "y": 180 },
+{ "model": "dandelion1", "y": 270 },
+
+{ "model": "dandelion2" },
+{ "model": "dandelion2", "y": 90 },
+{ "model": "dandelion2", "y": 180 },
+{ "model": "dandelion2", "y": 270 },
+
+{ "model": "dandelion3" },
+{ "model": "dandelion3", "y": 90 },
+{ "model": "dandelion3", "y": 180 },
+{ "model": "dandelion3", "y": 270 }
+
+]
+    }
+}
