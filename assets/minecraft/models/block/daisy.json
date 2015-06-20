@@ -1,0 +1,67 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "#cross",
+    "cross": "blocks/ker6"
+},
+"elements": [ 
+{
+    "from": [ 7.5, -0.0325, -7.5 ],
+    "to": [ 7.58343, 28, 27.2069 ],
+    "shade": false,
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ -10.5, -0.0325, 9.8125 ],
+    "to": [ 24.2069, 28, 9.89593 ],
+    "shade": false,
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ 1.84472, 3.92126, -0.157625 ],
+    "to": [ 27.8749, 27.9491, -0.074195 ],
+    "shade": false,
+    "rotation": { "origin": [ 1.84472, 3.92126, -0.157625 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 13.5 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 13 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ -1.4925, 3.92126, 13.1912 ],
+    "to": [ 24.5377, 27.9491, 13.2746 ],
+    "shade": false,
+    "rotation": { "origin": [ -1.4925, 3.92126, 13.1912 ], "axis": "y", "angle": 22.5 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 13.5 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 13 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ -3.49481, 3.92126, 7.18424 ],
+    "to": [ 22.5354, 27.9491, 7.26767 ],
+    "shade": false,
+    "rotation": { "origin": [ -3.49481, 3.92126, 7.18424 ], "axis": "y", "angle": -22.5 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 13.5 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 13 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ 0, 3.9722, 20.5 ],
+    "to": [ 26.0302, 28, 20.5834 ],
+    "rotation": { "origin": [ 0, 3.9722, 20.5 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 13.5 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 13 ], "texture": "#cross" }
+    }
+}
+]
+}
