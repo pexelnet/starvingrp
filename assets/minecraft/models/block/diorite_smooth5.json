@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "side": "blocks/tiles/tiles6",
+	"top": "blocks/tiles/tiles6",
+	"bottom": "blocks/hardened_clay_stained_silver"
+    }
+}
