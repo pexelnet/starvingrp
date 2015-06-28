@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <name>Starving (Builders) 2.0 RP</name>
+    <encoding>UTF-8</encoding>
+    <gitPull>true</gitPull>
+    <ignoreGitFolders>true</ignoreGitFolders>
+    <src>.</src>
+    <target>../latest_builder.zip</target>
+    <build>
+        <!-- <generate class="eu.matejkormuth.rpbuild.generators.sounds.StarvingSoundsJsonGenerator"/> -->
+        <generate class="eu.matejkormuth.rpbuild.generators.sounds.FileTreeSoundsJsonGenerator"/>
+        <generate class="eu.matejkormuth.rpbuild.generators.PackMcmetaGenerator"/>
+        <compile class="eu.matejkormuth.rpbuild.compilers.JsonCompressor" files=".json"/> 
+    </build>
+    <filters>
+        <filter>rpbuild.xml</filter>
+        <filter>.jar</filter>
+        <filter>.zip</filter>
+        <filter>.bat</filter>
+        <filter>.php</filter>
+        <filter>.sh</filter>
+        <filter>.md</filter>
+        <filter>.log</filter>
+        <filter>items</filter>
+        <filter>icons.png</filter>
+    </filters>
+</project>
