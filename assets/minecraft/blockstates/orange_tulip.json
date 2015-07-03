@@ -1,0 +1,71 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "tallweed1"},
+{ "model": "tallweed1", "y": 90 },
+{ "model": "tallweed1", "y": 180 },
+{ "model": "tallweed1", "y": 270 },
+
+{ "model": "tallweed2"},
+{ "model": "tallweed2", "y": 90 },
+{ "model": "tallweed2", "y": 180 },
+{ "model": "tallweed2", "y": 270 },
+
+{ "model": "tallweed3"},
+{ "model": "tallweed3", "y": 90 },
+{ "model": "tallweed3", "y": 180 },
+{ "model": "tallweed3", "y": 270 },
+
+{ "model": "tallweed4"},
+{ "model": "tallweed4", "y": 90 },
+{ "model": "tallweed4", "y": 180 },
+{ "model": "tallweed4", "y": 270 },
+
+{ "model": "tallweed5"},
+{ "model": "tallweed5", "y": 90 },
+{ "model": "tallweed5", "y": 180 },
+{ "model": "tallweed5", "y": 270 },
+
+{ "model": "tallweed6"},
+{ "model": "tallweed6", "y": 90 },
+{ "model": "tallweed6", "y": 180 },
+{ "model": "tallweed6", "y": 270 },
+
+{ "model": "tallweed7"},
+{ "model": "tallweed7", "y": 90 },
+{ "model": "tallweed7", "y": 180 },
+{ "model": "tallweed7", "y": 270 },
+
+{ "model": "tallweed8"},
+{ "model": "tallweed8", "y": 90 },
+{ "model": "tallweed8", "y": 180 },
+{ "model": "tallweed8", "y": 270 },
+
+{ "model": "tallweed9"},
+{ "model": "tallweed9", "y": 90 },
+{ "model": "tallweed9", "y": 180 },
+{ "model": "tallweed9", "y": 270 },
+
+{ "model": "tallweed10"},
+{ "model": "tallweed10", "y": 90 },
+{ "model": "tallweed10", "y": 180 },
+{ "model": "tallweed10", "y": 270 },
+
+
+{ "model": "tallweed11"},
+{ "model": "tallweed11", "y": 90 },
+{ "model": "tallweed11", "y": 180 },
+{ "model": "tallweed11", "y": 270 },
+
+{ "model": "tallweed12"},
+{ "model": "tallweed12", "y": 90 },
+{ "model": "tallweed12", "y": 180 },
+{ "model": "tallweed12", "y": 270 },
+
+{ "model": "tallweed13"},
+{ "model": "tallweed13", "y": 90 },
+{ "model": "tallweed13", "y": 180 },
+{ "model": "tallweed13", "y": 270 }
+]
+    }
+}

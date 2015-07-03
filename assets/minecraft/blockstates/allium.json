@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "allium"},
+{ "model": "allium", "y": 90 },
+{ "model": "allium", "y": 180 },
+{ "model": "allium", "y": 270 }
+]
+    }
+}

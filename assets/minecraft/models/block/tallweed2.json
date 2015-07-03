@@ -1,24 +1,22 @@
 {
 "textures": {
     "particle": "#cross",
-    "cross": "blocks/weed/tallweed13"
+    "cross": "blocks/weed/tallweed2"
 },
 "elements": [ 
 {
-    "from": [ -5.2, 0, 20 ],
-    "to": [ 20.72, 28.8, 20.1126 ],
-    "shade": false,
-    "rotation": { "origin": [ -5.2, 0, 20 ], "axis": "y", "angle": 45 },
+    "from": [ -3, 0, 18 ],
+    "to": [ 18.6, 24, 18.0938 ],
+    "rotation": { "origin": [ -3, 0, 18 ], "axis": "y", "angle": 45 },
     "faces": {
         "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
         "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
     }
 },
 {
-    "from": [ -5.2, 0, 2 ],
-    "to": [ -5.08744, 28.8, 27.92 ],
-    "shade": false,
-    "rotation": { "origin": [ -5.2, 0, 2 ], "axis": "y", "angle": 45 },
+    "from": [ -3, 0, 3 ],
+    "to": [ -2.9062, 24, 24.6 ],
+    "rotation": { "origin": [ -3, 0, 3 ], "axis": "y", "angle": 45 },
     "faces": {
         "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
         "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }

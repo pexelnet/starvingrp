@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "smallweed1"},
+{ "model": "smallweed1", "y": 90 },
+{ "model": "smallweed1", "y": 180 },
+{ "model": "smallweed1", "y": 270 },
+{ "model": "smallweed2"},
+{ "model": "smallweed2", "y": 90 },
+{ "model": "smallweed2", "y": 180 },
+{ "model": "smallweed2", "y": 270 },
+{ "model": "smallweed3"},
+{ "model": "smallweed3", "y": 90 },
+{ "model": "smallweed3", "y": 180 },
+{ "model": "smallweed3", "y": 270 },
+{ "model": "smallweed4"},
+{ "model": "smallweed4", "y": 90 },
+{ "model": "smallweed4", "y": 180 },
+{ "model": "smallweed4", "y": 270 }
+]
+    }
+}

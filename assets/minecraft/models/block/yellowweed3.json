@@ -1,0 +1,26 @@
+{
+"textures": {
+    "particle": "blocks/weed/yellowweed1",
+    "cross": "blocks/weed/yellowweed3"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 19 ],
+    "to": [ 25.92, 28.8, 19.1126 ],
+    "rotation": { "origin": [ 0, 0, 19 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ 2, 0, 2 ],
+    "to": [ 2.11256, 28.8, 27.92 ],
+    "rotation": { "origin": [ 2, 0, 2 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+}
+]
+}

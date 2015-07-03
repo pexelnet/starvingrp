@@ -1,0 +1,35 @@
+{
+"textures": {
+    "particle": "#cross",
+    "cross": "blocks/weed/randomweed5"
+},
+"elements": [ 
+{
+    "from": [ -4, 0, 14 ],
+    "to": [ 17.6, 24, 14.0938 ],
+    "rotation": { "origin": [ -4, 0, 14 ], "axis": "y", "angle": 22.5 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "south": { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ 0, 0, 6 ],
+    "to": [ 21.6, 24, 6.09375 ],
+    "rotation": { "origin": [ 0, 0, 6 ], "axis": "y", "angle": -22.5 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ 14, 0, -4 ],
+    "to": [ 14.0938, 24, 17.6 ],
+    "rotation": { "origin": [ 14, 0, -4 ], "axis": "y", "angle": -22.5 },
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "east":  { "uv": [ 16, 0, 0, 16 ], "texture": "#cross" }
+    }
+}
+]
+}

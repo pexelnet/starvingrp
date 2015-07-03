@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "half=lower": [
+{ "model": "bush1" },
+{ "model": "bush1", "y": 90 },
+{ "model": "bush1", "y": 180 },
+{ "model": "bush1", "y": 270},
+{ "model": "bush2"},
+{ "model": "bush2", "y": 90  },
+{ "model": "bush2", "y": 180  },
+{ "model": "bush2", "y": 270 },
+{ "model": "bush3"},
+{ "model": "bush3", "y": 90  },
+{ "model": "bush3", "y": 180  },
+{ "model": "bush3", "y": 270 }
+],
+        "half=upper":    { "model": "empty" }
+    }
+}

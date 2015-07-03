@@ -1,0 +1,66 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "randomweed1"},
+{ "model": "randomweed1", "y": 90 },
+{ "model": "randomweed1", "y": 180 },
+{ "model": "randomweed1", "y": 270 },
+
+{ "model": "randomweed2"},
+{ "model": "randomweed2", "y": 90 },
+{ "model": "randomweed2", "y": 180 },
+{ "model": "randomweed2", "y": 270 },
+
+{ "model": "randomweed3"},
+{ "model": "randomweed3", "y": 90 },
+{ "model": "randomweed3", "y": 180 },
+{ "model": "randomweed3", "y": 270 },
+
+{ "model": "randomweed4"},
+{ "model": "randomweed4", "y": 90 },
+{ "model": "randomweed4", "y": 180 },
+{ "model": "randomweed4", "y": 270 },
+
+{ "model": "randomweed5"},
+{ "model": "randomweed5", "y": 90 },
+{ "model": "randomweed5", "y": 180 },
+{ "model": "randomweed5", "y": 270 },
+
+{ "model": "randomweed6"},
+{ "model": "randomweed6", "y": 90 },
+{ "model": "randomweed6", "y": 180 },
+{ "model": "randomweed6", "y": 270 },
+
+{ "model": "randomweed7"},
+{ "model": "randomweed7", "y": 90 },
+{ "model": "randomweed7", "y": 180 },
+{ "model": "randomweed7", "y": 270 },
+
+{ "model": "randomweed8"},
+{ "model": "randomweed8", "y": 90 },
+{ "model": "randomweed8", "y": 180 },
+{ "model": "randomweed8", "y": 270 },
+
+{ "model": "randomweed9"},
+{ "model": "randomweed9", "y": 90 },
+{ "model": "randomweed9", "y": 180 },
+{ "model": "randomweed9", "y": 270 },
+
+{ "model": "randomweed10"},
+{ "model": "randomweed10", "y": 90 },
+{ "model": "randomweed10", "y": 180 },
+{ "model": "randomweed10", "y": 270 },
+
+
+{ "model": "randomweed11"},
+{ "model": "randomweed11", "y": 90 },
+{ "model": "randomweed11", "y": 180 },
+{ "model": "randomweed11", "y": 270 },
+
+{ "model": "randomweed12"},
+{ "model": "randomweed12", "y": 90 },
+{ "model": "randomweed12", "y": 180 },
+{ "model": "randomweed12", "y": 270 }
+]
+    }
+}
