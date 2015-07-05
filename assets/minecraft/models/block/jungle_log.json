@@ -1,81 +1,82 @@
 {
 "__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
 "textures": {
-    "log_spruce": "blocks/log_acacia",
+    "particle": "blocks/log_jungle",
+    "log_spruce": "blocks/log_jungle",
     "log_spruce_top": "blocks/log_spruce_top"
 },
 "elements": [ 
 {
-    "from": [ -0.73125, 0.0472, 5.86875 ],
-    "to": [ 16.8687, 16.0472, 10.2 ],
+    "from": [ -0.73125, 0.0471875, 5.86875 ],
+    "to": [ 16.8688, 16.0472, 10.2 ],
     "faces": {
         "west":  { "uv": [ 6.0625, 0.048, 10, 16 ], "texture": "#log_spruce" },
         "east":  { "uv": [ 6, 0.048, 9.9375, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 0.4375, 0.0472, 2.84375 ],
+    "from": [ 0.4375, 0.0471875, 2.84375 ],
     "to": [ 18.0375, 16.0472, 6.4875 ],
     "shade": false,
-    "rotation": { "origin": [ 0.4375, 0.0472, 2.84375 ], "axis": "y", "angle": -22.5 },
+    "rotation": { "origin": [ 0.4375, 0.0471875, 2.84375 ], "axis": "y", "angle": -22.5 },
     "faces": {
         "west":  { "uv": [ 3.3125, 0.048, 6.625, 16 ], "texture": "#log_spruce" },
         "east":  { "uv": [ 9.375, 0.048, 12.6875, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 3.05, 0.0472, 0.3 ],
+    "from": [ 3.05, 0.0471875, 0.3 ],
     "to": [ 20.65, 16.0472, 4.2875 ],
     "shade": false,
-    "rotation": { "origin": [ 3.05, 0.0472, 0.3 ], "axis": "y", "angle": -45 },
+    "rotation": { "origin": [ 3.05, 0.0471875, 0.3 ], "axis": "y", "angle": -45 },
     "faces": {
         "west":  { "uv": [ 1, 0.048, 4.625, 16 ], "texture": "#log_spruce" },
         "east":  { "uv": [ 11.375, 0.048, 15, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 2.775, 0.0472, 0.575 ],
+    "from": [ 2.775, 0.0471875, 0.575 ],
     "to": [ 6.4875, 16.0472, 18.175 ],
     "shade": false,
-    "rotation": { "origin": [ 2.775, 0.0472, 0.575 ], "axis": "y", "angle": 22.5 },
+    "rotation": { "origin": [ 2.775, 0.0471875, 0.575 ], "axis": "y", "angle": 22.5 },
     "faces": {
         "north": { "uv": [ 9.375, 0.048, 12.75, 16 ], "texture": "#log_spruce" },
         "south": { "uv": [ 3.25, 0.048, 6.625, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 5.86875, 0.0472, -0.73125 ],
-    "to": [ 9.925, 16.0472, 16.8687 ],
+    "from": [ 5.86875, 0.0471875, -0.73125 ],
+    "to": [ 9.925, 16.0472, 16.8688 ],
     "faces": {
         "north": { "uv": [ 6.25, 0.048, 9.9375, 16 ], "texture": "#log_spruce" },
         "south": { "uv": [ 6.0625, 0.048, 9.75, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 9.65, 0.0472, -0.8 ],
-    "to": [ 13.2938, 16.0472, 16.8 ],
+    "from": [ 9.65, 0.0471875, -0.8 ],
+    "to": [ 13.2937, 16.0472, 16.8 ],
     "shade": false,
-    "rotation": { "origin": [ 9.65, 0.0472, -0.8 ], "axis": "y", "angle": -22.5 },
+    "rotation": { "origin": [ 9.65, 0.0471875, -0.8 ], "axis": "y", "angle": -22.5 },
     "faces": {
         "north": { "uv": [ 3.1875, 0.048, 6.5, 16 ], "texture": "#log_spruce" },
         "south": { "uv": [ 9.5, 0.048, 12.8125, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ -0.9375, 0.0472, 9.65 ],
+    "from": [ -0.9375, 0.0471875, 9.65 ],
     "to": [ 16.6625, 16.0472, 13.3625 ],
     "shade": false,
-    "rotation": { "origin": [ -0.9375, 0.0472, 9.65 ], "axis": "y", "angle": 22.5 },
+    "rotation": { "origin": [ -0.9375, 0.0471875, 9.65 ], "axis": "y", "angle": 22.5 },
     "faces": {
         "west":  { "uv": [ 9.5, 0.048, 12.875, 16 ], "texture": "#log_spruce" },
         "east":  { "uv": [ 3.125, 0.048, 6.5, 16 ], "texture": "#log_spruce" }
     }
 },
 {
-    "from": [ 0.3, 0.0472, 12.675 ],
+    "from": [ 0.3, 0.0471875, 12.675 ],
     "to": [ 17.9, 16.0472, 17.1438 ],
     "shade": false,
-    "rotation": { "origin": [ 0.3, 0.0472, 12.675 ], "axis": "y", "angle": 45 },
+    "rotation": { "origin": [ 0.3, 0.0471875, 12.675 ], "axis": "y", "angle": 45 },
     "faces": {
         "west":  { "uv": [ 12.25, 0.048, 16, 16 ], "texture": "#log_spruce" },
         "east":  { "uv": [ 0, 0.048, 3.75, 16 ], "texture": "#log_spruce" }
@@ -155,7 +156,7 @@
 },
 {
     "from": [ 1.60625, 0.1, 1.4 ],
-    "to": [ 13.9813, 16.1, 1.675 ],
+    "to": [ 13.9812, 16.1, 1.675 ],
     "faces": {
         "down":  { "uv": [ 13.8125, 2.25, 2.5625, 2 ], "texture": "#log_spruce_top" },
         "up":    { "uv": [ 2.1875, 2, 13.4375, 2.25 ], "texture": "#log_spruce_top" }
