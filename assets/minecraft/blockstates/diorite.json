@@ -1,0 +1,123 @@
+{
+    "variants": {
+        "normal": [
+		
+{ "model": "diorite"},
+{ "model": "diorite","y": 90 },
+{ "model": "diorite","y": 180 },
+{ "model": "diorite","y": 270 },
+		
+{ "model": "diorite1"},
+{ "model": "diorite1","y": 90 },
+{ "model": "diorite1","y": 180 },
+{ "model": "diorite1","y": 270 },
+
+{ "model": "diorite2"},
+{ "model": "diorite2","y": 90 },
+{ "model": "diorite2","y": 180 },
+{ "model": "diorite2","y": 270 },
+
+{ "model": "diorite3"},
+{ "model": "diorite3","y": 90 },
+{ "model": "diorite3","y": 180 },
+{ "model": "diorite3","y": 270 },
+
+{ "model": "diorite4"},
+{ "model": "diorite4","y": 90 },
+{ "model": "diorite4","y": 180 },
+{ "model": "diorite4","y": 270 },
+
+{ "model": "diorite5"},
+{ "model": "diorite5","y": 90 },
+{ "model": "diorite5","y": 180 },
+{ "model": "diorite5","y": 270 },
+
+{ "model": "diorite6"},
+{ "model": "diorite6","y": 90 },
+{ "model": "diorite6","y": 180 },
+{ "model": "diorite6","y": 270 },
+
+{ "model": "diorite7"},
+{ "model": "diorite7","y": 90 },
+{ "model": "diorite7","y": 180 },
+{ "model": "diorite7","y": 270 },
+
+{ "model": "diorite8"},
+{ "model": "diorite8","y": 90 },
+{ "model": "diorite8","y": 180 },
+{ "model": "diorite8","y": 270 },
+
+{ "model": "diorite9"},
+{ "model": "diorite9","y": 90 },
+{ "model": "diorite9","y": 180 },
+{ "model": "diorite9","y": 270 },
+
+{ "model": "diorite10"},
+{ "model": "diorite10","y": 90 },
+{ "model": "diorite10","y": 180 },
+{ "model": "diorite10","y": 270 },
+{ "model": "diorite10"},
+{ "model": "diorite10","y": 90 },
+{ "model": "diorite10","y": 180 },
+{ "model": "diorite10","y": 270 },
+{ "model": "diorite10"},
+{ "model": "diorite10","y": 90 },
+{ "model": "diorite10","y": 180 },
+{ "model": "diorite10","y": 270 },
+
+{ "model": "diorite11"},
+{ "model": "diorite11","y": 90 },
+{ "model": "diorite11","y": 180 },
+{ "model": "diorite11","y": 270 },
+{ "model": "diorite11"},
+{ "model": "diorite11","y": 90 },
+{ "model": "diorite11","y": 180 },
+{ "model": "diorite11","y": 270 },
+{ "model": "diorite11"},
+{ "model": "diorite11","y": 90 },
+{ "model": "diorite11","y": 180 },
+{ "model": "diorite11","y": 270 },
+
+{ "model": "diorite12"},
+{ "model": "diorite12","y": 90 },
+{ "model": "diorite12","y": 180 },
+{ "model": "diorite12","y": 270 },
+{ "model": "diorite12"},
+{ "model": "diorite12","y": 90 },
+{ "model": "diorite12","y": 180 },
+{ "model": "diorite12","y": 270 },
+{ "model": "diorite12"},
+{ "model": "diorite12","y": 90 },
+{ "model": "diorite12","y": 180 },
+{ "model": "diorite12","y": 270 },
+
+{ "model": "diorite13"},
+{ "model": "diorite13","y": 90 },
+{ "model": "diorite13","y": 180 },
+{ "model": "diorite13","y": 270 },
+{ "model": "diorite13"},
+{ "model": "diorite13","y": 90 },
+{ "model": "diorite13","y": 180 },
+{ "model": "diorite13","y": 270 },
+{ "model": "diorite13"},
+{ "model": "diorite13","y": 90 },
+{ "model": "diorite13","y": 180 },
+{ "model": "diorite13","y": 270 },
+
+{ "model": "diorite14"},
+{ "model": "diorite14","y": 90 },
+{ "model": "diorite14","y": 180 },
+{ "model": "diorite14","y": 270 },
+{ "model": "diorite14"},
+{ "model": "diorite14","y": 90 },
+{ "model": "diorite14","y": 180 },
+{ "model": "diorite14","y": 270 },
+{ "model": "diorite14"},
+{ "model": "diorite14","y": 90 },
+{ "model": "diorite14","y": 180 },
+{ "model": "diorite14","y": 270 }
+
+
+]
+    }
+}
