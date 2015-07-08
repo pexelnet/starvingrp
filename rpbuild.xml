@@ -16,15 +16,14 @@
         <!-- Compress all json files (models, ...) -->
         <compile class="eu.matejkormuth.rpbuild.compilers.JsonCompressor" files=".json"/> 
         <!-- Specifies to run Image Resize in build on all .png files. -->
-        <!-- <compile class="eu.matejkormuth.rpbuild.compilers.ImageResizer" files=".png">
+        <compile class="eu.matejkormuth.rpbuild.compilers.ImageResizer" files=".png">
             <settings>
-                Interpolation setting. Can be nearest, bilinear or bicubic. 
+                <!-- Interpolation setting. Can be nearest, bilinear or bicubic. -->
                 <setting key="interpolation" value="nearest" />
-                Max image resolution in pixels. Put 64 if you want 64x64 resource pack. 
-                <setting key="maxResolution" value="64" />
+                <!-- Max image resolution in pixels. Put 64 if you want 64x64 resource pack.  -->
+                <setting key="maxResolution" value="256" />
             </settings>
         </compile>
-        -->
     </build>
     <filters>
         <filter>rpbuild.xml</filter>
