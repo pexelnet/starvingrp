@@ -1,0 +1,166 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/door_birch_lower",
+    "door_birch_lower": "blocks/door_birch_lower",
+    "door_birch_klucka": "blocks/door_birch_klucka"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 1, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 16, 16, 15.25, 0 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0.25, 0, 1, 16 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0.25, 0, 1, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 15, 0, 16, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 15.875, 0, 0, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ -0.25, 0, 14.75 ],
+    "to": [ 0, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 15, 16, 14.75, 14.75 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 1, 14.75, 1.25, 16 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 1, 0, 1.25, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 14.75, 0, 15, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 1.25, 0, 0, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 14.75, 0, 16, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ -0.25, 11.5, 1.25 ],
+    "to": [ 0, 14.25, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 15, 14.75, 14.75, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0.9375, 1.25, 1.1875, 14.75 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0.9375, 1.75, 1.1875, 4.5 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 14.75, 1.75, 15, 4.5 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 14.75, 1.75, 1.25, 4.5 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 1.25, 1.75, 14.75, 4.5 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ -0.25, 0, 0 ],
+    "to": [ 0, 16, 1.25 ],
+    "faces": {
+        "down":  { "uv": [ 15, 1.25, 14.75, 0 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 1, 0, 1.25, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 1, 0, 1.25, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 14.75, 0, 15, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 16, 0, 14.75, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 0, 0, 1.25, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ -0.25, 0, 1.25 ],
+    "to": [ 0, 1.75, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 15, 14.75, 14.75, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0.9375, 1.25, 1.1875, 14.75 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0.9375, 14.25, 1.1875, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 14.75, 14.25, 15, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 1.25, 14.25, 14.75, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 14.75, 14.25, 1.25, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ 1.125, 11.625, 14.25 ],
+    "to": [ 1.5, 11.875, 14.5 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" }
+    }
+},
+{
+    "from": [ 1.5, 11.5, 13 ],
+    "to": [ 1.75, 12, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" }
+    }
+},
+{
+    "from": [ 1, 0, 1.25 ],
+    "to": [ 1.25, 1.75, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 16, 14.75, 16, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0, 1.25, 0, 14.75 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0, 14.25, 0, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 16, 14.25, 16, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 14.75, 14.25, 1.25, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 14.75, 14.25, 1.25, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ 1, 0, 14.75 ],
+    "to": [ 1.25, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ -0.25, 14.75, 0, 16 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0, 14.75, 0.25, 16 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0, 0, 0.25, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 0, 0, 0.25, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 1.25, 0, 0, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 16, 0, 14.75, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ 1, 11.5, 1.25 ],
+    "to": [ 1.25, 14.25, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 16, 14.75, 16, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0, 1.25, 0, 14.75 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0, 1.75, 0, 4.5 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 16, 1.75, 16, 4.5 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 1.25, 1.75, 14.75, 4.5 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 1.25, 1.75, 14.75, 4.5 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ 1, 0, 0 ],
+    "to": [ 1.25, 16, 1.25 ],
+    "faces": {
+        "down":  { "uv": [ -0.25, 0, 0, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "up":    { "uv": [ 0, 0, 0.25, 1.25 ], "rotation": 180, "texture": "#door_birch_lower" },
+        "north": { "uv": [ 0, 0, 0.25, 16 ], "texture": "#door_birch_lower" },
+        "south": { "uv": [ 0, 0, 0.25, 16 ], "texture": "#door_birch_lower" },
+        "west":  { "uv": [ 16, 0, 14.75, 16 ], "texture": "#door_birch_lower" },
+        "east":  { "uv": [ 1.25, 0, 0, 16 ], "texture": "#door_birch_lower" }
+    }
+},
+{
+    "from": [ -0.625, 11.625, 14.25 ],
+    "to": [ -0.25, 11.875, 14.5 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" }
+    }
+},
+{
+    "from": [ -0.75, 11.5, 13 ],
+    "to": [ -0.5, 12, 14.75 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "up":    { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#door_birch_klucka" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#door_birch_klucka" }
+    }
+}
+]
+}
