@@ -1,7 +1,7 @@
 {
 "textures": {
-    "particle": "blocks/fence/birch_fence",
-    "texture": "blocks/fence/birch_fence"
+    "particle": "blocks/birch_fence",
+    "texture": "blocks/birch_fence"
 },
 "elements": [ 
 {
