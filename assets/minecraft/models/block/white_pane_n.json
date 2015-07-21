@@ -1,0 +1,57 @@
+{
+"textures": {
+    "particle": "#pane",
+    "klima1": "blocks/klima1",
+    "klima2": "blocks/klima2"
+},
+"elements": [ 
+{
+    "from": [ -4, 0, -4 ],
+    "to": [ 20, 19.5, 7.625 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 3.25 ], "texture": "#klima1" },
+        "up":    { "uv": [ 0, 0, 16, 3 ], "texture": "#klima1" },
+        "north": { "uv": [ 0, 3, 16, 16 ], "texture": "#klima1" },
+        "south": { "uv": [ 0, 3, 16, 16 ], "texture": "#klima1" },
+        "west":  { "uv": [ 7.75, 0, 0, 16 ], "texture": "#klima2" },
+        "east":  { "uv": [ 16, 0, 8.25, 16 ], "texture": "#klima2" }
+    }
+},
+{
+    "from": [ -4.75, 8.625, -0.25 ],
+    "to": [ -3.625, 14.625, 4.625 ],
+    "faces": {
+        "down":  { "uv": [ 13.75, 4.75, 14.5, 8 ], "texture": "#klima1" },
+        "up":    { "uv": [ 14, 4.75, 14.75, 8 ], "texture": "#klima1" },
+        "north": { "uv": [ 13.25, 3.5, 14, 7.5 ], "texture": "#klima1" },
+        "south": { "uv": [ 14, 4.25, 14.75, 8.25 ], "texture": "#klima1" },
+        "west":  { "uv": [ 2, 4, 5.25, 8.75 ], "texture": "#klima2" },
+        "east":  { "uv": [ 2.5, 3.25, 5.75, 7.25 ], "texture": "#klima2" }
+    }
+},
+{
+    "from": [ -1, -0.75, -4 ],
+    "to": [ 0.5, 0, 9.125 ],
+    "faces": {
+        "down":  { "uv": [ 12.75, 4, 13.75, 8.5 ], "texture": "#klima1" },
+        "up":    { "uv": [ 12.75, 4, 13.75, 8.5 ], "texture": "#klima1" },
+        "north": { "uv": [ 12.75, 5.5, 13.75, 6 ], "texture": "#klima1" },
+        "south": { "uv": [ 12.75, 5.5, 13.75, 6 ], "texture": "#klima1" },
+        "west":  { "uv": [ 12.5, 6.75, 16, 8 ], "texture": "#klima1" },
+        "east":  { "uv": [ 12.5, 6.75, 16, 8 ], "texture": "#klima1" }
+    }
+},
+{
+    "from": [ 15.5, -0.75, -4 ],
+    "to": [ 17, 0, 9.125 ],
+    "faces": {
+        "down":  { "uv": [ 12.75, 4, 13.75, 8.5 ], "texture": "#klima1" },
+        "up":    { "uv": [ 12.75, 4, 13.75, 8.5 ], "texture": "#klima1" },
+        "north": { "uv": [ 12.75, 5.5, 13.75, 6 ], "texture": "#klima1" },
+        "south": { "uv": [ 12.75, 5.5, 13.75, 6 ], "texture": "#klima1" },
+        "west":  { "uv": [ 12.5, 6.75, 16, 8 ], "texture": "#klima1" },
+        "east":  { "uv": [ 12.5, 6.75, 16, 8 ], "texture": "#klima1" }
+    }
+}
+]
+}
