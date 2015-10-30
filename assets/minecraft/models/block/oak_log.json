@@ -2,7 +2,7 @@
 "__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
 "textures": {
     "log_spruce": "blocks/log_oak",
-    "log_spruce_top": "blocks/log_spruce_top"
+    "log_spruce_top": "blocks/log_oak"
 },
 "elements": [ 
 {
