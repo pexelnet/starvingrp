@@ -1,0 +1,93 @@
+{
+"textures": {
+    "particle": "#bottom",
+    "dvere1": "blocks/doors/dvere1",
+    "dvere1_klucka": "blocks/doors/dvere1_klucka"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 0 ],
+    "to": [ 1, 32, 16 ],
+    "faces": {
+        "down":  { "uv": [ 0, 15, 8, 16 ], "rotation": 180, "texture": "#dvere1" },
+        "up":    { "uv": [ 0, 0, 8, 1 ], "rotation": 180, "texture": "#dvere1" },
+        "north": { "uv": [ 1, 0, 1.5, 16 ], "texture": "#dvere1" },
+        "south": { "uv": [ 15, 0, 16, 16 ], "texture": "#dvere1" },
+        "west":  { "uv": [ 8, 0, 0, 16 ], "texture": "#dvere1" },
+        "east":  { "uv": [ 0, 0, 8, 16 ], "texture": "#dvere1" }
+    }
+},
+{
+    "from": [ 1, 14.375, 0.875 ],
+    "to": [ 1.25, 17.875, 1.625 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 9.5, 1.125, 12.5, 14.875 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 9.5, 1.125, 12.5, 14.875 ], "texture": "#dvere1_klucka" }
+    }
+},
+{
+    "from": [ 1.25, 16.75, 1.125 ],
+    "to": [ 1.875, 17.125, 1.5 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 10.125, 4.25, 11.125, 5.375 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 10.125, 4.25, 11.125, 5.375 ], "texture": "#dvere1_klucka" }
+    }
+},
+{
+    "from": [ 1.625, 16.75, 1.5 ],
+    "to": [ 1.875, 17.125, 3.25 ],
+    "faces": {
+        "down":  { "uv": [ 3.375, 4.375, 10.625, 4.875 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 3.375, 4.375, 10.625, 4.875 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 3.375, 4.375, 10.5, 4.875 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 3.375, 4.375, 10.5, 4.875 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 3.375, 4.375, 10.5, 5.375 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 3.375, 4.375, 10.5, 5.375 ], "texture": "#dvere1_klucka" }
+    }
+},
+{
+    "from": [ -0.25, 14.375, 0.875 ],
+    "to": [ 0, 17.875, 1.625 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 9.5, 1.125, 12.5, 14.875 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 9.5, 1.125, 12.5, 14.875 ], "texture": "#dvere1_klucka" }
+    }
+},
+{
+    "from": [ -0.875, 16.75, 1.125 ],
+    "to": [ -0.25, 17.125, 1.5 ],
+    "faces": {
+        "down":  { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 9.5, 1.125, 12.375, 1.5 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 12, 1.125, 12.375, 14.625 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 10.125, 4.25, 11.125, 5.375 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 10.125, 4.25, 11.125, 5.375 ], "texture": "#dvere1_klucka" }
+    }
+},
+{
+    "from": [ -0.875, 16.75, 1.5 ],
+    "to": [ -0.625, 17.125, 3.25 ],
+    "faces": {
+        "down":  { "uv": [ 3.375, 4.375, 10.625, 4.875 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "up":    { "uv": [ 3.375, 4.375, 10.625, 4.875 ], "rotation": 180, "texture": "#dvere1_klucka" },
+        "north": { "uv": [ 3.375, 4.375, 10.5, 4.875 ], "texture": "#dvere1_klucka" },
+        "south": { "uv": [ 3.375, 4.375, 10.5, 4.875 ], "texture": "#dvere1_klucka" },
+        "west":  { "uv": [ 3.375, 4.375, 10.5, 5.375 ], "texture": "#dvere1_klucka" },
+        "east":  { "uv": [ 3.375, 4.375, 10.5, 5.375 ], "texture": "#dvere1_klucka" }
+    }
+}
+]
+}

@@ -1,8 +1,8 @@
 {
     "variants": {
-        "axis=y":  { "model": "birch_log" },
+        "axis=y":  { "model": "birch_log2" },
         "axis=z":   { "model": "birch_log2", "x": 90 },
         "axis=x":   { "model": "birch_log2", "x": 90, "y": 90 },
-        "axis=none": { "model": "birch_bark" }
+        "axis=none": { "model": "birch_log" }
     }
 }
