@@ -1,0 +1,7 @@
+{
+    "parent": "block/grass",
+    "textures": {
+        "bottom": "blocks/dirt",
+        "side": "blocks/podzol"
+    }
+}

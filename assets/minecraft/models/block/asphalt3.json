@@ -1,8 +1,0 @@
-{
-    "parent": "block/line",
-    "textures": {
-        "end": "blocks/asphalt/line3",
-        "side": "blocks/asphalt/asphalt",
-	"up": "blocks/asphalt/line3"
-    }
-}

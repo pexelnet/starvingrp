@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-        "side": "blocks/tiles/tiles9",
-	"top": "blocks/tiles/tiles9",
-	"bottom": "blocks/hardened_clay_stained_silver"
-    }
-}

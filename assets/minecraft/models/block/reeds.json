@@ -1,0 +1,38 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.93 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "#cross",
+    "cross": "blocks/sugarcane"
+},
+"elements": [ 
+{
+    "from": [ 13, 0, -7 ],
+    "to": [ 13.0625, 30, 27.7069 ],
+    "shade": false,
+    "faces": {
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ -6.5, -2, -2.5 ],
+    "to": [ 27, 32, -2.4375 ],
+    "shade": false,
+    "rotation": { "origin": [ -6.5, -2, -2.5 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 14.155300140380859, 16 ], "texture": "#cross" },
+        "south": { "uv": [ 1.8447200059890747, 0, 16, 16 ], "texture": "#cross" }
+    }
+},
+{
+    "from": [ -7, -2, 11 ],
+    "to": [ 26, 32, 11.0625 ],
+    "shade": false,
+    "rotation": { "origin": [ -7, -2, 11 ], "axis": "y", "angle": 22.5 },
+    "faces": {
+        "north": { "uv": [ 0, 0, 16, 14.078700065612793 ], "texture": "#cross" },
+        "south": { "uv": [ 0, 0, 16, 14.078700065612793 ], "texture": "#cross" }
+    }
+}
+]
+}
