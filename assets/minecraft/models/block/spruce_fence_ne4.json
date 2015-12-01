@@ -1,0 +1,50 @@
+{"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/fence/spruce_fence",
+    "spruce_fence2": "blocks/fence/spruce_fence2"
+},
+"elements": [ 
+{
+    "__comment": "Center post*",
+    "from": [ 8.25, 8.5, -0.75 ],
+    "to": [ 20.5, 10.5, 0.25 ],
+    "rotation": { "origin": [ 8.25, 8.5, -0.75 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 0.75, 5, 14.75, 6 ], "texture": "#spruce_fence2", "cullface": "down" },
+        "up":    { "uv": [ 0.75, 5, 14.75, 6 ], "texture": "#spruce_fence2" },
+        "north": { "uv": [ 0.75, 0, 14.75, 2 ], "texture": "#spruce_fence2" },
+        "south": { "uv": [ 0.75, 0, 14.75, 2 ], "texture": "#spruce_fence2" },
+        "west":  { "uv": [ 14.25, 12, 15.25, 14 ], "texture": "#spruce_fence2" },
+        "east":  { "uv": [ 14.25, 12, 15.25, 14 ], "texture": "#spruce_fence2" }
+    }
+},
+{
+    "__comment": "Center post*",
+    "from": [ 8.25, 15, -0.75 ],
+    "to": [ 20.5, 17, 0.25 ],
+    "rotation": { "origin": [ 8.25, 15, -0.75 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 0.25, 5, 14.75, 6 ], "texture": "#spruce_fence2", "cullface": "down" },
+        "up":    { "uv": [ 0.25, 5, 14.75, 6 ], "texture": "#spruce_fence2" },
+        "north": { "uv": [ 1, 0, 15.5, 2 ], "texture": "#spruce_fence2" },
+        "south": { "uv": [ 1, 0, 15.5, 2 ], "texture": "#spruce_fence2" },
+        "west":  { "uv": [ 14, 12, 15, 14 ], "texture": "#spruce_fence2" },
+        "east":  { "uv": [ 14, 12, 15, 14 ], "texture": "#spruce_fence2" }
+    }
+},
+{
+    "__comment": "Center post*",
+    "from": [ 8.25, 3, -0.75 ],
+    "to": [ 20.5, 5, 0.25 ],
+    "rotation": { "origin": [ 8.25, 3, -0.75 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "down":  { "uv": [ 0.25, 4.75, 14.25, 5.75 ], "texture": "#spruce_fence2", "cullface": "down" },
+        "up":    { "uv": [ 0.25, 4.75, 14.25, 5.75 ], "texture": "#spruce_fence2" },
+        "north": { "uv": [ 0, 2.25, 14, 4.25 ], "texture": "#spruce_fence2" },
+        "south": { "uv": [ 0, 2.25, 14, 4.25 ], "texture": "#spruce_fence2" },
+        "west":  { "uv": [ 13.75, 12, 14.75, 14 ], "texture": "#spruce_fence2" },
+        "east":  { "uv": [ 13.75, 12, 14.75, 14 ], "texture": "#spruce_fence2" }
+    }
+}
+]
+}
