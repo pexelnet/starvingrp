@@ -1,0 +1,91 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "items/suitcase_front",
+    "suitcase_back": "items/suitcase_back",
+    "suitcase_side": "items/suitcase_side",
+    "suitcase_top": "items/suitcase_top"
+},
+"elements": [ 
+{
+    "from": [ 0, 0, 6 ],
+    "to": [ 16, 9, 10 ],
+    "faces": {
+        "down":  { "uv": [ 0, 0, 16, 4 ], "texture": "#suitcase_top" },
+        "up":    { "uv": [ 0, 12, 16, 16 ], "texture": "#suitcase_top" },
+        "north": { "uv": [ 0, 3.5, 16, 12.5 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 3.5, 16, 12.5 ], "texture": "#suitcase_back" },
+        "west":  { "uv": [ 9, 0, 16, 16 ], "texture": "#suitcase_side" },
+        "east":  { "uv": [ 0, 0, 7, 16 ], "texture": "#suitcase_side" }
+    }
+},
+{
+    "from": [ 6.5, 9.75, 7.375 ],
+    "to": [ 9.75, 10, 8.375 ],
+    "faces": {
+        "down":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "up":    { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "north": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "south": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "west":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "east":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" }
+    }
+},
+{
+    "from": [ 9.625, 9, 7.375 ],
+    "to": [ 9.875, 9.75, 8.375 ],
+    "faces": {
+        "down":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "up":    { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "north": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "south": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "west":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "east":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" }
+    }
+},
+{
+    "from": [ 6.375, 9, 7.375 ],
+    "to": [ 6.625, 9.75, 8.375 ],
+    "faces": {
+        "down":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "up":    { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "north": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "south": { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "west":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" },
+        "east":  { "uv": [ 0, 8, 2.25, 8.375 ], "texture": "#suitcase_top" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ 0, 90, 180 ],
+        "translation": [ 0, 2.4, -0.6 ],
+        "scale": [ 1.1, 1.1, 1.1 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 12.4, 0 ],
+        "scale": [ 4, 4, 4 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 4, 4, 4 ]
+    },
+    "fixed": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, 64, -1 ],
+        "translation": [ 0, 2.2, -0.1 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}
