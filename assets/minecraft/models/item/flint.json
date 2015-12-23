@@ -1,0 +1,45 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "texture": "items/knife"
+},
+"elements": [ 
+{
+    "from": [ 1.4375, 8.375, 7.875 ],
+    "to": [ 6, 9.4375, 8.25 ],
+    "faces": {
+        "down":  { "uv": [ 4.25, 3.75, 10.25, 4.25 ], "texture": "#texture" },
+        "up":    { "uv": [ 4.25, 3.75, 10.25, 4.25 ], "texture": "#texture" },
+        "north": { "uv": [ 0.75, 0.5, 14.5, 3.75 ], "texture": "#texture" },
+        "south": { "uv": [ 0.75, 0.5, 14.5, 3.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 7.75, 3, 8.25, 4 ], "texture": "#texture" },
+        "east":  { "uv": [ 7.75, 3, 8.25, 4 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 6, 8.25, 8 ],
+    "to": [ 12, 9.5, 8.0625 ],
+    "faces": {
+        "north": { "uv": [ 16, 10, 0, 14 ], "texture": "#texture" },
+        "south": { "uv": [ 0, 10, 16, 14 ], "texture": "#texture" }
+    }
+}
+],
+"display": {
+    "thirdperson": {
+        "rotation": [ -164, 79, 3 ],
+        "translation": [ 0, 1.4, -3.3 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 2, 2, 2 ]
+    },
+    "firstperson": {
+        "rotation": [ 0, 37, 41 ],
+        "translation": [ 1.3, 4, -0.1 ],
+        "scale": [ 2, 2, 2 ]
+    }
+}
+}
