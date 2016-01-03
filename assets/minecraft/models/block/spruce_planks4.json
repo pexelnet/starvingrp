@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_floor",
+    "textures": {
+        "floor": "blocks/floor5-4",
+	"bottom": "blocks/wool_colored_white"
+    }
+}

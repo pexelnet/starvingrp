@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "normal": [
+{ "model": "andesite_smooth1" },
+{ "model": "andesite_smooth1", "y": 90  },
+{ "model": "andesite_smooth1", "y": 180  },
+{ "model": "andesite_smooth1", "y": 270  },
+{ "model": "andesite_smooth2" },
+{ "model": "andesite_smooth2", "y": 90  },
+{ "model": "andesite_smooth2", "y": 180  },
+{ "model": "andesite_smooth2", "y": 270  },
+{ "model": "andesite_smooth3" },
+{ "model": "andesite_smooth3", "y": 90  },
+{ "model": "andesite_smooth3", "y": 180  },
+{ "model": "andesite_smooth3", "y": 270  },
+{ "model": "andesite_smooth4" },
+{ "model": "andesite_smooth4", "y": 90  },
+{ "model": "andesite_smooth4", "y": 180  },
+{ "model": "andesite_smooth4", "y": 270  }
+]
+    }
+}
