@@ -130,5 +130,12 @@
         "east":  { "uv": [ 0, 12.1875, 16, 12.4375 ], "texture": "#texture" }
     }
 }
-]
+],
+"display": {
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 1.6, 1.6, 1.6 ]
+    }
+}
 }
