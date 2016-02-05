@@ -1,0 +1,78 @@
+﻿{
+    "variants": {
+        "extended=false,facing=down": { "model": "sticky_piston_normal", "x": 90 },
+        "extended=false,facing=up": { "model": "sticky_piston_normal", "x": 270 },
+        "extended=false,facing=north": [
+{ "model": "sticky_piston", "weight": 5 },
+{ "model": "sticky_piston2" },
+{ "model": "sticky_piston3"},
+{ "model": "sticky_piston4"},
+{ "model": "sticky_piston5"},
+{ "model": "sticky_piston6", "weight": 3},
+{ "model": "sticky_piston7"},
+{ "model": "sticky_piston8"},
+{ "model": "sticky_piston9"},
+{ "model": "sticky_piston10"},
+{ "model": "sticky_piston11"},
+{ "model": "sticky_piston12"},
+{ "model": "sticky_piston13"},
+{ "model": "sticky_piston14"}
+],
+        "extended=false,facing=south": [
+{ "model": "sticky_piston", "weight": 5 , "y": 180},
+{ "model": "sticky_piston2", "y": 180 },
+{ "model": "sticky_piston3", "y": 180},
+{ "model": "sticky_piston4", "y": 180},
+{ "model": "sticky_piston5", "y": 180},
+{ "model": "sticky_piston6", "y": 180, "weight": 3},
+{ "model": "sticky_piston7", "y": 180},
+{ "model": "sticky_piston8", "y": 180},
+{ "model": "sticky_piston9", "y": 180},
+{ "model": "sticky_piston10", "y": 180},
+{ "model": "sticky_piston11", "y": 180},
+{ "model": "sticky_piston12", "y": 180},
+{ "model": "sticky_piston13", "y": 180},
+{ "model": "sticky_piston14", "y": 180}
+],
+
+        "extended=false,facing=west": [
+{ "model": "sticky_piston", "weight": 5 , "y": 270},
+{ "model": "sticky_piston2", "y": 270 },
+{ "model": "sticky_piston3", "y": 270},
+{ "model": "sticky_piston4", "y": 270},
+{ "model": "sticky_piston5", "y": 270},
+{ "model": "sticky_piston6", "y": 270, "weight": 3},
+{ "model": "sticky_piston7", "y": 270},
+{ "model": "sticky_piston8", "y": 270},
+{ "model": "sticky_piston9", "y": 270},
+{ "model": "sticky_piston10", "y": 270},
+{ "model": "sticky_piston11", "y": 270},
+{ "model": "sticky_piston12", "y": 270},
+{ "model": "sticky_piston13", "y": 270},
+{ "model": "sticky_piston14", "y": 270}
+],
+        "extended=false,facing=east": [
+{ "model": "sticky_piston", "weight": 5 , "y": 90},
+{ "model": "sticky_piston2", "y": 90 },
+{ "model": "sticky_piston3", "y": 90},
+{ "model": "sticky_piston4", "y": 90},
+{ "model": "sticky_piston5", "y": 90},
+{ "model": "sticky_piston6", "y": 90, "weight": 3},
+{ "model": "sticky_piston7", "y": 90},
+{ "model": "sticky_piston8", "y": 90},
+{ "model": "sticky_piston9", "y": 90},
+{ "model": "sticky_piston10", "y": 90},
+{ "model": "sticky_piston11", "y": 90},
+{ "model": "sticky_piston12", "y": 90},
+{ "model": "sticky_piston13", "y": 90},
+{ "model": "sticky_piston14", "y": 90}
+
+],
+        "extended=true,facing=down": { "model": "sticky_piston_extended_normal", "x": 90 },
+        "extended=true,facing=up": { "model": "sticky_piston_extended_normal", "x": 270 },
+        "extended=true,facing=north": { "model": "sticky_piston_extended_normal" },
+        "extended=true,facing=south": { "model": "sticky_piston_extended_normal", "y": 180 },
+        "extended=true,facing=west": { "model": "sticky_piston_extended_normal", "y": 270 },
+        "extended=true,facing=east": { "model": "sticky_piston_extended_normal", "y": 90 }
+    }
+}
