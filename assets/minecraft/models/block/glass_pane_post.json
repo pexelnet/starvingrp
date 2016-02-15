@@ -107,14 +107,6 @@
         "west":  { "uv": [ 13.25, 1, 15.25, 16 ], "texture": "#fur5" },
         "east":  { "uv": [ 13.25, 1, 15.25, 16 ], "texture": "#fur5" }
     }
-},
-{
-    "from": [ 8, 0, 0 ],
-    "to": [ 8.0625, 16, 8 ],
-    "faces": {
-        "west":  { "uv": [ 0, 0, 8, 16 ], "texture": "#texture" },
-        "east":  { "uv": [ 16, 0, 8, 16 ], "texture": "#texture" }
-    }
 }
 ]
 }
