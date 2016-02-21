@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "damage=0,facing=south":[ 
+{ "model": "anvil_undamaged", "weight": 5 },
+{ "model": "anvil_undamaged2", "weight": 5 },
+{ "model": "anvil_undamaged3", "weight": 5 },
+{ "model": "anvil_undamaged4" },
+{ "model": "anvil_undamaged5" },
+{ "model": "anvil_undamaged6" },
+{ "model": "anvil_undamaged7" }
+],
+        "damage=0,facing=west":[ 
+{ "model": "anvil_undamaged", "weight": 5, "y": 90 },
+{ "model": "anvil_undamaged2", "weight": 5, "y": 90 },
+{ "model": "anvil_undamaged3", "weight": 5, "y": 90 },
+{ "model": "anvil_undamaged4", "y": 90 },
+{ "model": "anvil_undamaged5", "y": 90 },
+{ "model": "anvil_undamaged6", "y": 90 },
+{ "model": "anvil_undamaged7", "y": 90 }
+],
+
+        "damage=0,facing=north":[ 
+{ "model": "anvil_undamaged", "weight": 5, "y": 180 },
+{ "model": "anvil_undamaged2", "weight": 5, "y": 180 },
+{ "model": "anvil_undamaged3", "weight": 5, "y": 180 },
+{ "model": "anvil_undamaged4", "y": 180 },
+{ "model": "anvil_undamaged5", "y": 180 },
+{ "model": "anvil_undamaged6", "y": 180 },
+{ "model": "anvil_undamaged7", "y": 180 }
+],
+        "damage=0,facing=east":[ 
+{ "model": "anvil_undamaged", "weight": 5, "y": 270 },
+{ "model": "anvil_undamaged2", "weight": 5, "y": 270 },
+{ "model": "anvil_undamaged3", "weight": 5, "y": 270 },
+{ "model": "anvil_undamaged4", "y": 270 },
+{ "model": "anvil_undamaged5", "y": 270 },
+{ "model": "anvil_undamaged6", "y": 270 },
+{ "model": "anvil_undamaged7", "y": 270 }
+],
+        
+
+
+"damage=1,facing=south": { "model": "anvil_slightly_damaged" },
+        "damage=1,facing=west": { "model": "anvil_slightly_damaged", "y": 90 },
+        "damage=1,facing=north": { "model": "anvil_slightly_damaged", "y": 180 },
+        "damage=1,facing=east": { "model": "anvil_slightly_damaged", "y": 270 },
+        "damage=2,facing=south": { "model": "anvil_very_damaged" },
+        "damage=2,facing=west": { "model": "anvil_very_damaged", "y": 90 },
+        "damage=2,facing=north": { "model": "anvil_very_damaged", "y": 180 },
+        "damage=2,facing=east": { "model": "anvil_very_damaged", "y": 270 }
+    }
+}
