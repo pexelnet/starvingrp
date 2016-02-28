@@ -1,0 +1,36 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"ambientocclusion": false,
+"textures": {
+    "particle": "blocks/nab1",
+    "texture": "blocks/nab1",
+    "nab2": "blocks/nab2",
+    "fur5": "blocks/fur5"
+},
+"elements": [ 
+{
+    "from": [ 5.25, 15.25, 0 ],
+    "to": [ 15.5, 15.75, 16 ],
+    "faces": {
+        "down":  { "uv": [ 5.25, 0, 15.5, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 5.25, 0, 15.5, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 5.25, 0.25, 15.5, 0.75 ], "texture": "#texture" },
+        "south": { "uv": [ 5.25, 0.25, 15.5, 0.75 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0.25, 16, 0.75 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0.25, 16, 0.75 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 15.5, 13.75, 0 ],
+    "to": [ 16, 16, 16 ],
+    "faces": {
+        "down":  { "uv": [ 15.5, 0, 16, 16 ], "texture": "#texture" },
+        "up":    { "uv": [ 15.5, 0, 16, 16 ], "texture": "#texture" },
+        "north": { "uv": [ 15.5, 0, 16, 2.25 ], "texture": "#texture" },
+        "south": { "uv": [ 15.5, 0, 16, 2.25 ], "texture": "#texture" },
+        "west":  { "uv": [ 0, 0, 16, 2.25 ], "texture": "#texture" },
+        "east":  { "uv": [ 0, 0, 16, 2.25 ], "texture": "#texture" }
+    }
+}
+]
+}
