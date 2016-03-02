@@ -1,0 +1,79 @@
+{
+"__comment": "Designed by Pitkes22 with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+"textures": {
+    "particle": "blocks/log_spruce",
+    "texture": "blocks/log_spruce"
+},
+"elements": [ 
+{
+    "from": [ 6.2, -16, -1.6 ],
+    "to": [ 10.04, 32, 17.6 ],
+    "faces": {
+        "north": { "uv": [ 0, 0, 1, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 8, 0, 9, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 10.025, -16, -1.6 ],
+    "to": [ 13.865, 32, 17.6 ],
+    "rotation": { "origin": [ 10.025, -16, -1.6 ], "axis": "y", "angle": -22.5 },
+    "faces": {
+        "north": { "uv": [ 15, 0, 16, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 7, 0, 8, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 13.55, -16, -0.175 ],
+    "to": [ 17.51, 32, 19.025 ],
+    "rotation": { "origin": [ 13.55, -16, -0.175 ], "axis": "y", "angle": -45 },
+    "faces": {
+        "north": { "uv": [ 14, 0, 15, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 6, 0, 7, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ 2.675, -16, -0.175 ],
+    "to": [ 6.515, 32, 19.025 ],
+    "rotation": { "origin": [ 2.675, -16, -0.175 ], "axis": "y", "angle": 22.5 },
+    "faces": {
+        "north": { "uv": [ 1, 0, 2, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 9, 0, 10, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ -0.1, -16, 2.6 ],
+    "to": [ 3.86, 32, 21.8 ],
+    "rotation": { "origin": [ -0.1, -16, 2.6 ], "axis": "y", "angle": 45 },
+    "faces": {
+        "north": { "uv": [ 2, 0, 3, 16 ], "texture": "#texture" },
+        "south": { "uv": [ 10, 0, 11, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ -1.525, -16, 9.95 ],
+    "to": [ 17.675, 32, 13.79 ],
+    "rotation": { "origin": [ -1.525, -16, 9.95 ], "axis": "y", "angle": 22.5 },
+    "faces": {
+        "west":  { "uv": [ 5, 0, 6, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 13, 0, 14, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ -1.525, -16, 6.125 ],
+    "to": [ 17.675, 32, 9.965 ],
+    "faces": {
+        "west":  { "uv": [ 4, 0, 5, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 12, 0, 13, 16 ], "texture": "#texture" }
+    }
+},
+{
+    "from": [ -0.025, -16, 2.6 ],
+    "to": [ 19.175, 32, 6.44 ],
+    "rotation": { "origin": [ -0.025, -16, 2.6 ], "axis": "y", "angle": -22.5 },
+    "faces": {
+        "west":  { "uv": [ 3, 0, 4, 16 ], "texture": "#texture" },
+        "east":  { "uv": [ 11, 0, 12, 16 ], "texture": "#texture" }
+    }
+}
+]
+}

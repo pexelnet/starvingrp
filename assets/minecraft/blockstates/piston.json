@@ -1,7 +1,7 @@
 ﻿{
     "variants": {
-        "extended=false,facing=down": { "model": "piston_normal", "x": 90 },
-        "extended=false,facing=up": { "model": "piston_normal", "x": 270 },
+        "extended=false,facing=down": { "model": "piston_log1" },
+        "extended=false,facing=up": { "model": "piston_log2" },
         "extended=false,facing=north": [
 { "model": "piston", "weight": 5 },
 { "model": "piston2" },
